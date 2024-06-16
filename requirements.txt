@@ -1,0 +1,5 @@
+passlib
+requests
+tqdm
+argon2_cffi 
+web3==6.11.1
