@@ -22,7 +22,7 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
 
-set(CUDA_ARCH "sm_75" CACHE STRING "Specify the CUDA architecture.")
+set(CUDA_ARCH "sm_86" CACHE STRING "Specify the CUDA architecture.")
 
 set(CUDA_FOUND FALSE)
 

@@ -129,7 +129,7 @@ You can refer to [NVIDIA CUDA GPUs](https://developer.nvidia.com/cuda-gpus#compu
 ```sh
 ./build.sh -cuda_arch sm_86  # Example: For a GPU with Compute Capability 8.6
 ```
-If you omit the `-cuda_arch` flag, the build script will default to using `sm_75`. While the script may still run without specifying `cuda_arch`, defining it correctly ensures that you are utilizing your GPU to its full potential.
+If you omit the `-cuda_arch` flag, the build script will default to using `sm_86`. While the script may still run without specifying `cuda_arch`, defining it correctly ensures that you are utilizing your GPU to its full potential.
 
 ## Usage
 
